@@ -38,8 +38,9 @@ public class TrianguloRectangulo {
 	 * @return La hipotenusa del Triangulo
 	 */
 	public double hipotenusa () {
-		double hipotenusa = Math.sqrt(Math.pow(a, 2)+Math.pow(b, 2));
-		return hipotenusa;
+		double resultado = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+	    double hipotenusa = Math.round(resultado * 100.0) / 100.0;
+	    return hipotenusa;
 	}
 	/**
 	 * Funcion que calcula el perimetro del Triangulo

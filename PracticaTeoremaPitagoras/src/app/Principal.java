@@ -8,10 +8,10 @@ public class Principal {
 		TrianguloRectangulo t1 = new TrianguloRectangulo (6,1);
 		TrianguloRectangulo t2 = new TrianguloRectangulo ();
 		
-		t1.area();
-		t1.perimetro();
-		t2.area();
-		t2.perimetro();
+		double primeraArea = t1.area();
+		double primerPerimetro = t1.perimetro();
+		double segundaArea = t2.area();
+		double segundoPerimetro = t2.perimetro();
 
 
 	}
