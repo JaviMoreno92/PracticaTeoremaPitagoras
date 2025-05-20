@@ -39,7 +39,7 @@ public class TrianguloRectangulo {
 	 */
 	public double hipotenusa () {
 		double resultado = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-	    double hipotenusa = Math.round(resultado * 100.0) / 100.0;
+	    double hipotenusa = (double)Math.round(resultado * 100.0) / 100.0;
 	    return hipotenusa;
 	}
 	/**
